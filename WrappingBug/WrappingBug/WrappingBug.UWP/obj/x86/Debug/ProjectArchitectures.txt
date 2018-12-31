@@ -1,0 +1,1 @@
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\WrappingBug.UWP.csproj;x86

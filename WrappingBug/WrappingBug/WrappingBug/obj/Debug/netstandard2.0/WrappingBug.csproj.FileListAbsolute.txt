@@ -1,0 +1,17 @@
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\bin\Debug\netstandard2.0\WrappingBug.deps.json
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\bin\Debug\netstandard2.0\WrappingBug.dll
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\bin\Debug\netstandard2.0\WrappingBug.pdb
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\obj\Debug\netstandard2.0\WrappingBug.csprojAssemblyReference.cache
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\obj\Debug\netstandard2.0\Views\AboutPage.xaml.g.cs
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\obj\Debug\netstandard2.0\Views\ItemDetailPage.xaml.g.cs
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\obj\Debug\netstandard2.0\Views\ItemsPage.xaml.g.cs
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\obj\Debug\netstandard2.0\Views\MenuPage.xaml.g.cs
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\obj\Debug\netstandard2.0\WrappingBug.csproj.CoreCompileInputs.cache
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\obj\Debug\netstandard2.0\WrappingBug.AssemblyInfoInputs.cache
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\obj\Debug\netstandard2.0\WrappingBug.AssemblyInfo.cs
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\obj\Debug\netstandard2.0\XamlC.stamp
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\obj\Debug\netstandard2.0\WrappingBug.dll
+C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\obj\Debug\netstandard2.0\WrappingBug.pdb
