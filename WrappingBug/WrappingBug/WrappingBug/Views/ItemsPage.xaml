@@ -14,228 +14,233 @@
         </ToolbarItem>
     </ContentPage.ToolbarItems>
     <ScrollView>
-        <StackLayout Orientation="Vertical">
-            <Label FontAttributes="Bold"
-                   Text="The Xamarin wrap height calculation glitch."/>
-            <Label Text="Below you will find a flex layout with two columns. The right column will wrap under the left column once the width has shrunk to 300. Notice, there are 16 titles with values on the left column. Now shrink the UWP window and grow. Scroll down and make sure each of the 16 titles with their values are still there. You will see that they are getting cut off or sometimes not even displaying. Even notice the background color to the parent layouts containing the wrapping labels."/>
-        </StackLayout>
-        <FlexLayout Direction="Row"
-                    Wrap="Wrap"
-                    AlignContent="Start"
-                    Margin="5,0,5,0">
-            <StackLayout FlexLayout.Grow="1"
-                         FlexLayout.Basis="350"
-                         FlexLayout.AlignSelf="Start"
-                         Orientation="Vertical"
-                         BackgroundColor="LightBlue">
-                <StackLayout Orientation="Horizontal"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 1"
-                           FontAttributes="Bold"/>
-                    <Label LineBreakMode="WordWrap"
-                           Text="1.) This is example text
-                                 2.) This is example text
-                                 3.) This is example text
-                                 4.) This is example text
-                                 5.) This is example text
-                                 6.) This is example text
-                                 7.) This is example text
-                                 8.) This is example text" />
-                </StackLayout>
-                <StackLayout Orientation="Horizontal"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 2"
-                           FontAttributes="Bold"/>
-                    <Label LineBreakMode="WordWrap"
-                           Text="1.) This is example text
-                                 2.) This is example text
-                                 3.) This is example text
-                                 4.) This is example text
-                                 5.) This is example text
-                                 6.) This is example text
-                                 7.) This is example text
-                                 8.) This is example text" />
-                </StackLayout>
-                <StackLayout Orientation="Horizontal"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 3"
-                           FontAttributes="Bold"/>
-                    <Label LineBreakMode="WordWrap"
-                           Text="1.) This is example text
-                                 2.) This is example text
-                                 3.) This is example text
-                                 4.) This is example text
-                                 5.) This is example text
-                                 6.) This is example text
-                                 7.) This is example text
-                                 8.) This is example text" />
-                </StackLayout>
-                <StackLayout Orientation="Horizontal"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 4"
-                           FontAttributes="Bold"/>
-                    <Label LineBreakMode="WordWrap"
-                           Text="1.) This is example text
-                                 2.) This is example text
-                                 3.) This is example text
-                                 4.) This is example text
-                                 5.) This is example text
-                                 6.) This is example text
-                                 7.) This is example text
-                                 8.) This is example text" />
-                </StackLayout>
-                <StackLayout Orientation="Vertical"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 5"
-                           FontAttributes="Bold"/>
-                    <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
-                           LineBreakMode="WordWrap"/>
-                </StackLayout>
-                <StackLayout Orientation="Vertical"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 6"
-                           FontAttributes="Bold"/>
-                    <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
-                           LineBreakMode="WordWrap"/>
-                </StackLayout>
-                <StackLayout Orientation="Vertical"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 7"
-                           FontAttributes="Bold"/>
-                    <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
-                           LineBreakMode="WordWrap"/>
-                </StackLayout>
-                <StackLayout Orientation="Vertical"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 8"
-                           FontAttributes="Bold"/>
-                    <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
-                           LineBreakMode="WordWrap"/>
-                </StackLayout>
-                <StackLayout Orientation="Vertical"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 9"
-                           FontAttributes="Bold"/>
-                    <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
-                           LineBreakMode="WordWrap"/>
-                </StackLayout>
-                <StackLayout Orientation="Vertical"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 10"
-                           FontAttributes="Bold"/>
-                    <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
-                           LineBreakMode="WordWrap"/>
-                </StackLayout>
-                <StackLayout Orientation="Vertical"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 11"
-                           FontAttributes="Bold"/>
-                    <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
-                           LineBreakMode="WordWrap"/>
-                </StackLayout>
-                <StackLayout Orientation="Vertical"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 12"
-                           FontAttributes="Bold"/>
-                    <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
-                           LineBreakMode="WordWrap"/>
-                </StackLayout>
-                <StackLayout Orientation="Vertical"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 13"
-                           FontAttributes="Bold"/>
-                    <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
-                           LineBreakMode="WordWrap"/>
-                </StackLayout>
-                <StackLayout Orientation="Vertical"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 14"
-                           FontAttributes="Bold"/>
-                    <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
-                           LineBreakMode="WordWrap"/>
-                </StackLayout>
-                <StackLayout Orientation="Vertical"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 15"
-                           FontAttributes="Bold"/>
-                    <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
-                           LineBreakMode="WordWrap"/>
-                </StackLayout>
-                <StackLayout Orientation="Vertical"
-                             VerticalOptions="FillAndExpand"
-                             HorizontalOptions="FillAndExpand"
-                             Spacing="5">
-                    <Label Text="Title 16"
-                           FontAttributes="Bold"/>
-                    <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
-                           LineBreakMode="WordWrap"/>
-                </StackLayout>
-
-            </StackLayout>
+        <StackLayout Orientation="Vertical"
+                     Spacing="0">
             <StackLayout Orientation="Vertical"
-                         FlexLayout.Grow="1"
-                         FlexLayout.Basis="350"
-                         FlexLayout.AlignSelf="Start"
-                         Spacing="10"
-                         Margin="5"
-                         BackgroundColor="LightGreen">
-                <ListView x:Name="ItemsListView"
-                          ItemsSource="{Binding Items}"
-                          VerticalOptions="FillAndExpand"
-                          HasUnevenRows="true"
-                          RefreshCommand="{Binding LoadItemsCommand}"
-                          IsPullToRefreshEnabled="true"
-                          IsRefreshing="{Binding IsBusy, Mode=OneWay}"
-                          CachingStrategy="RecycleElement"
-                          ItemSelected="OnItemSelected">
-                    <ListView.ItemTemplate>
-                        <DataTemplate>
-                            <ViewCell>
-                                <StackLayout Padding="10">
-                                    <Label Text="{Binding Text}" 
-                                           LineBreakMode="NoWrap" 
-                                           Style="{DynamicResource ListItemTextStyle}" 
-                                           FontSize="16" />
-                                    <Label Text="{Binding Description}" 
-                                           LineBreakMode="NoWrap"
-                                           Style="{DynamicResource ListItemDetailTextStyle}"
-                                           FontSize="13" />
-                                </StackLayout>
-                            </ViewCell>
-                        </DataTemplate>
-                    </ListView.ItemTemplate>
-                </ListView>
+                         VerticalOptions="FillAndExpand"
+                         HorizontalOptions="FillAndExpand">
+                <Label FontAttributes="Bold"
+                       Text="The Xamarin wrap height calculation glitch."/>
+                <Label Text="Below you will find a flex layout with two columns. The right column will wrap under the left column once the width has shrunk to 300. Notice, there are 16 titles with values on the left column. Now shrink the UWP window and grow. Scroll down and make sure each of the 16 titles with their values are still there. You will see that they are getting cut off or sometimes not even displaying. Even notice the background color to the parent layouts containing the wrapping labels."/>
             </StackLayout>
-        </FlexLayout>
+            <FlexLayout Direction="Row"
+                        Wrap="Wrap"
+                        AlignContent="Start"
+                        Margin="5,0,5,0">
+                <StackLayout FlexLayout.Grow="1"
+                             FlexLayout.Basis="350"
+                             FlexLayout.AlignSelf="Start"
+                             Orientation="Vertical"
+                             BackgroundColor="LightBlue">
+                    <StackLayout Orientation="Horizontal"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 1"
+                               FontAttributes="Bold"/>
+                        <Label LineBreakMode="WordWrap"
+                               Text="1.) This is example text
+                                     2.) This is example text
+                                     3.) This is example text
+                                     4.) This is example text
+                                     5.) This is example text
+                                     6.) This is example text
+                                     7.) This is example text
+                                     8.) This is example text" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 2"
+                               FontAttributes="Bold"/>
+                        <Label LineBreakMode="WordWrap"
+                               Text="1.) This is example text
+                                     2.) This is example text
+                                     3.) This is example text
+                                     4.) This is example text
+                                     5.) This is example text
+                                     6.) This is example text
+                                     7.) This is example text
+                                     8.) This is example text" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 3"
+                               FontAttributes="Bold"/>
+                        <Label LineBreakMode="WordWrap"
+                               Text="1.) This is example text
+                                     2.) This is example text
+                                     3.) This is example text
+                                     4.) This is example text
+                                     5.) This is example text
+                                     6.) This is example text
+                                     7.) This is example text
+                                     8.) This is example text" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 4"
+                               FontAttributes="Bold"/>
+                        <Label LineBreakMode="WordWrap"
+                               Text="1.) This is example text
+                                     2.) This is example text
+                                     3.) This is example text
+                                     4.) This is example text
+                                     5.) This is example text
+                                     6.) This is example text
+                                     7.) This is example text
+                                     8.) This is example text" />
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 5"
+                               FontAttributes="Bold"/>
+                        <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
+                               LineBreakMode="WordWrap"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 6"
+                               FontAttributes="Bold"/>
+                        <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
+                               LineBreakMode="WordWrap"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 7"
+                               FontAttributes="Bold"/>
+                        <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
+                               LineBreakMode="WordWrap"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 8"
+                               FontAttributes="Bold"/>
+                        <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
+                               LineBreakMode="WordWrap"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 9"
+                               FontAttributes="Bold"/>
+                        <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
+                               LineBreakMode="WordWrap"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 10"
+                               FontAttributes="Bold"/>
+                        <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
+                               LineBreakMode="WordWrap"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 11"
+                               FontAttributes="Bold"/>
+                        <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
+                               LineBreakMode="WordWrap"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 12"
+                               FontAttributes="Bold"/>
+                        <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
+                               LineBreakMode="WordWrap"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 13"
+                               FontAttributes="Bold"/>
+                        <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
+                               LineBreakMode="WordWrap"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 14"
+                               FontAttributes="Bold"/>
+                        <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
+                               LineBreakMode="WordWrap"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 15"
+                               FontAttributes="Bold"/>
+                        <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
+                               LineBreakMode="WordWrap"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Vertical"
+                                 VerticalOptions="FillAndExpand"
+                                 HorizontalOptions="FillAndExpand"
+                                 Spacing="5">
+                        <Label Text="Title 16"
+                               FontAttributes="Bold"/>
+                        <Label Text="This is now text that is aligned under the title. This text should wrap. When thing wrap they wont update the height. I'm not sure why it won't update the height, but it is something to look into for sure"
+                               LineBreakMode="WordWrap"/>
+                    </StackLayout>
+
+                </StackLayout>
+                <StackLayout Orientation="Vertical"
+                             FlexLayout.Grow="1"
+                             FlexLayout.Basis="350"
+                             FlexLayout.AlignSelf="Start"
+                             Spacing="10"
+                             Margin="5"
+                             BackgroundColor="LightGreen">
+                    <ListView x:Name="ItemsListView"
+                              ItemsSource="{Binding Items}"
+                              VerticalOptions="FillAndExpand"
+                              HasUnevenRows="true"
+                              RefreshCommand="{Binding LoadItemsCommand}"
+                              IsPullToRefreshEnabled="true"
+                              IsRefreshing="{Binding IsBusy, Mode=OneWay}"
+                              CachingStrategy="RecycleElement"
+                              ItemSelected="OnItemSelected">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    <StackLayout Padding="10">
+                                        <Label Text="{Binding Text}" 
+                                               LineBreakMode="NoWrap" 
+                                               Style="{DynamicResource ListItemTextStyle}" 
+                                               FontSize="16" />
+                                        <Label Text="{Binding Description}" 
+                                               LineBreakMode="NoWrap"
+                                               Style="{DynamicResource ListItemDetailTextStyle}"
+                                               FontSize="13" />
+                                    </StackLayout>
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </StackLayout>
+            </FlexLayout>
+        </StackLayout>
     </ScrollView>
 </ContentPage>

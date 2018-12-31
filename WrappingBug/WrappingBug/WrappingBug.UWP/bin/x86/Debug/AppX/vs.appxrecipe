@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=318854cf-ac22-4d4c-bd2a-10dfc9cc66b1</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>6CC9DFE12E8A0F9116AE204B71F354806B88D61166F84BF5A34608662BA5CE6B</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>6fa6c07d-ea80-4cae-9147-3412ca34f60e_1.0.0.0_x86__hxc8npdsbj26p</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>6fa6c07d-ea80-4cae-9147-3412ca34f60e_hxc8npdsbj26p!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-12-31T18:32:16.203</Modified>
+      <Modified>2018-12-31T18:50:21.465</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\WrappingBug.UWP.exe">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\WrappingBug.UWP.exe">
       <PackagePath>entrypoint\WrappingBug.UWP.exe</PackagePath>
-      <Modified>2018-12-31T18:32:15.607</Modified>
+      <Modified>2018-12-31T18:50:20.799</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\John Roemer\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.1.5\runtimes\win10-x86\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -710,176 +710,176 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2018-11-14T02:15:22.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug\bin\Debug\netstandard2.0\WrappingBug.dll">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug\bin\Debug\netstandard2.0\WrappingBug.dll">
       <PackagePath>WrappingBug.dll</PackagePath>
-      <Modified>2018-12-31T18:32:11.107</Modified>
+      <Modified>2018-12-31T18:50:16.243</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-12-31T18:02:14.287</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.709</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.717</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.723</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.784</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.790</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.796</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.801</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.865</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.876</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.882</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.895</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.964</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.970</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.976</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:13.980</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:14.041</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:14.048</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:14.054</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:14.059</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:14.124</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:14.133</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:14.137</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:14.198</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:14.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:14.208</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:14.214</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-12-31T18:02:14.278</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\xamarin_logo.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\xamarin_logo.png">
       <PackagePath>xamarin_logo.png</PackagePath>
       <Modified>2018-12-31T18:02:15.131</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\add.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\add.png">
       <PackagePath>add.png</PackagePath>
       <Modified>2018-12-31T18:02:15.035</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\save.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\save.png">
       <PackagePath>save.png</PackagePath>
       <Modified>2018-12-31T18:02:15.068</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\cancel.png">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\cancel.png">
       <PackagePath>cancel.png</PackagePath>
       <Modified>2018-12-31T18:02:15.039</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\WrappingBug.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\WrappingBug.UWP.xr.xml">
       <PackagePath>WrappingBug.UWP.xr.xml</PackagePath>
       <Modified>2018-12-31T18:07:19.829</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-12-31T18:32:15.459</Modified>
+      <Modified>2018-12-31T18:50:20.623</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-12-31T18:32:15.460</Modified>
+      <Modified>2018-12-31T18:50:20.624</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -889,13 +889,13 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2018-11-14T02:15:20.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-12-31T18:07:22.497</Modified>
+      <Modified>2018-12-31T18:44:21.132</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\src\XamarinBug\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\Core\WrappingBug.UWP.exe">
+    <AppxPackagedFile Include="C:\src\Xambug1\WrappingBug\WrappingBug\WrappingBug.UWP\bin\x86\Debug\Core\WrappingBug.UWP.exe">
       <PackagePath>WrappingBug.UWP.exe</PackagePath>
-      <Modified>2018-12-31T18:32:16.198</Modified>
+      <Modified>2018-12-31T18:50:21.454</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
